@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /cisp/
+Disallow: /mental-health/
+Disallow: /shuffle/
