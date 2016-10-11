@@ -1,17 +1,29 @@
-html,
-body {
-	width: 100%;
-	height: 100%;
-	font-family: Roboto;
+@import "compass/css3";
+
+@import url(http://fonts.googleapis.com/css?family=Share+Tech+Mono);
+
+
+
+body{
+  background: black;
 }
 
-body {
-	background-color: #ababab;
-	width: 100%;
+svg{
+  width: 600px;
+  height: 120px;
+  padding-top: 200px;
+  display: block;
+  position: relative;
+  overflow: hidden; 
+  margin: 0 auto;
+  background: black;
+}
+
+.description {
+  font-family: Roboto;
+	padding-top: 32px;
+	font-size: 30px;
+	
+	color: white;
 	text-align: center;
-}
-
-h1 {
-	color: #fff;
-	font-weight: 500;
 }
